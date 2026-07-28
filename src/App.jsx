@@ -1,15 +1,9 @@
 import React from 'react'
-import Header from './component/Header';
-import Footer from './component/Footer';
-import { BrowserRouter } from 'react-router';
+import Home from './component/Home'
 
 const App = () => {
     return (
-        <BrowserRouter>
-            <Header/>
-
-            <Footer/>
-        </BrowserRouter>
+        <Home/>
     )
     
 }
