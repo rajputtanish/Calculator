@@ -1,9 +1,9 @@
 import React from 'react'
-import Home from './component/Home'
+import Calc from './component/Calc'
 
 const App = () => {
     return (
-        <Home/>
+        <Calc/>
     )
     
 }
