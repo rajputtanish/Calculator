@@ -33,6 +33,7 @@ const Home = () => {
     if (value === "=") {
       try {
         if (!string) return;
+        // eslint-disable-next-line no-eval
         const result = eval(string);
         if (!isFinite(result) || isNaN(result)) throw new Error();
         setString(result.toString());
